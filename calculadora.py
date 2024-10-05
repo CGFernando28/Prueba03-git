@@ -18,6 +18,8 @@ def calculadora():
     print("2. Restar")
     print("3. Multiplicar")
     print("4. Dividir")
+    print("5. Salir")
+    print("-----------------------------------------")
 
     while True:
         eleccion = input("Ingresa el número de la operación (1/2/3/4): ")
@@ -34,6 +36,9 @@ def calculadora():
                 print(f"{num1} * {num2} = {multiplicar(num1, num2)}")
             elif eleccion == '4':
                 print(f"{num1} / {num2} = {dividir(num1, num2)}")
+            elif eleccion == '5':
+                print("Saliendo...")
+                break
         else:
             print("Operación no válida.")
 
