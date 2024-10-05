@@ -43,3 +43,6 @@ def calculadora():
 
 if __name__ == "__main__":
     calculadora()
+    print("La señal de salida es esta")
+    print("Adios Goku")
+
