@@ -30,15 +30,10 @@ def calculadora():
 
             if eleccion == '1':
                 print(f"{num1} + {num2} = {sumar(num1, num2)}")
-            elif eleccion == '2':
-                print(f"{num1} - {num2} = {restar(num1, num2)}")
             elif eleccion == '3':
                 print(f"{num1} * {num2} = {multiplicar(num1, num2)}")
             elif eleccion == '4':
                 print(f"{num1} / {num2} = {dividir(num1, num2)}")
-            elif eleccion == '5':
-                print("Saliendo...")
-                break
         else:
             print("Operación no válida.")
 
